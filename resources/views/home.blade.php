@@ -46,7 +46,7 @@
 </body>
 
 <script>
-
+                   Hello, @{{name}}
 </script>
 
 </html>
