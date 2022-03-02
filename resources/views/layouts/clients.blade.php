@@ -7,6 +7,20 @@
                    <title>Document</title>
 </head>
 <body>
+                   <header>
+                                      <h1>header</h1>
+                   </header>
+                   <main>
+                                      <aside>
+                                                         MAIN SIDEBAR
+                                      </aside>
+                                      <div class="content">
+                                                         
+                                      </div>
+                   </main>
+                   <footer>
+                                      <h1>FOOTER</h1>
+                   </footer>
                    
 </body>
 </html>
