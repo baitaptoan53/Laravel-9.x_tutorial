@@ -15,7 +15,7 @@
                                                          MAIN SIDEBAR
                                       </aside>
                                       <div class="content">
-                                                         
+                                                     @yield('content')
                                       </div>
                    </main>
                    <footer>
