@@ -1,17 +1,32 @@
-@extends('layouts.client') 
+@extends('layouts.client')
 @section('title')
-{{$title}}
+    {{ $title }}
 @endsection
 @section('sidebar')
-{{-- @parent  --}}
+    {{-- @parent --}}
     <h3>Home sidebar</h3>
 @endsection
 @section('content')
     <h1>Trang chu</h1>
+    <button type="button" class="Show">show</button>
 @endsection
 @section('css')
-    header{
-                   backgroud:red;
-                   color:black;
-    }
+    <style>
+        header {
+            background-color: black;
+            color: red;
+        }
+
+        main {
+            color: #666;
+        }
+
+    </style>
+@endsection
+@section('js')
+    <script>
+        document.querySelector('.Show').addEventListener('click', function() {
+            alert('Thanh cong');
+        })
+    </script>
 @endsection

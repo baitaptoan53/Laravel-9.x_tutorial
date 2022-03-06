@@ -14,5 +14,9 @@ class HomeController extends Controller
         $this->data['title']='Trang chu';
         return view('clients.home',$this->data);
     }
-}
+    public function products(){
+        $this->data['title']='Products';
+        return view('clients.products',$this->data);
+    }
+    }
 ?>

@@ -132,3 +132,4 @@ Route::get('/cookie/set', [CookieController::class, 'setCookie']);
 Route::get('/cookie/get', [CookieController::class, 'getCookie']);
 Route::get('/', [HomeController::class, 'index']);
 //cu phap template blade
+Route::get('/products',[HomeController::class, 'products']);

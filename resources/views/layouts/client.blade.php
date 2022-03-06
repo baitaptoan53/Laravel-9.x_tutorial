@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title')</title>
-    <style type="text/css">
  @yield('css')
-    </style>
 </head>
 
 <body>
@@ -29,12 +27,8 @@
     </main>
     <footer>
         <h1>FOOTER</h1>
-    </footer>
-    <script type="text/js">
-                  
- @yield('js')
-    </style>
-                   </script>
+    </footer>      
+ @yield('js')   
 </body>
 
 </html>
