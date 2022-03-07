@@ -11,22 +11,8 @@
     <button type="button" class="Show">show</button>
 @endsection
 @section('css')
-    <style>
-        header {
-            background-color: black;
-            color: red;
-        }
 
-        main {
-            color: #666;
-        }
-
-    </style>
 @endsection
 @section('js')
-    <script>
-        document.querySelector('.Show').addEventListener('click', function() {
-            alert('Thanh cong');
-        })
-    </script>
+    
 @endsection
