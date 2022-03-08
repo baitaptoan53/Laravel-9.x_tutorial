@@ -13,19 +13,28 @@
 
 <body>
     @include('clients.blocks.header')
-    <main>
-        <aside>
-            @section('sidebar')
-                @include('clients.blocks.header')
-            @show
-        </aside>
-        <div class="content">
-            @yield('content')
+    <main class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <aside>
+                        @section('sidebar')
+                            @include('clients.blocks.header')
+                        @show
+                    </aside>
+                </div>
+                <div class="col-8">
+                    <div class="content">
+                        @yield('content')
+                    </div>
+                </div>
+            </div>
         </div>
+
+
+
     </main>
-    <footer>
-        <h1>FOOTER</h1>
-    </footer>
+    @include('clients.blocks.footer')
     <script src="assets/clients/js/bootstrap.min.js"></script>
     <script src="assets/clients/js/custurnt.js"></script>
     @yield('js')

@@ -7,12 +7,11 @@
     <h3>Home sidebar</h3>
 @endsection
 @section('content')
-    <h1>Trang chu</h1>
-    <button type="button" class="Show">show</button>
+    <h1>Trang chủ</h1>
+    @include('clients.contents.slide')
+    @include('clients.contents.about')
 @endsection
 @section('css')
-
 @endsection
 @section('js')
-    
 @endsection
